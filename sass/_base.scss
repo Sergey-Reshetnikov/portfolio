@@ -1,0 +1,39 @@
+
+
+
+$bp-largest: 75em;   //1200px/16=75
+$bp-large: 68.75em;   //1100px
+$bp-medium: 56.25em;   //900px
+$bp-small: 37.5em;   //600px
+$bp-smallest: 31.25em;   //500px
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  color: rgb(242, 245, 247);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;             //1rem = 10px,   10px/16px=62.5%
+  line-height: 1.15;
+
+
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.6rem;
+  background: rgb(15, 22, 36);
+
+
+
+  min-height: 100vh;
+}

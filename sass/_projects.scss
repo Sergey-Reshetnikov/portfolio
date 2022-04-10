@@ -1,0 +1,92 @@
+.projects {
+  
+
+  &__project {
+  }
+}
+
+
+
+
+.project {
+  border-radius: 10px;
+  box-shadow: rgba(80, 78, 78, 50%) 3px 3px 20px;
+  text-align: center;
+  width: 400px;
+  overflow: hidden;
+
+  &__header {
+
+  }
+  &__header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    min-height: 230px;
+
+  }
+  &__header-caption {
+    text-align: center;
+    width: 100%;
+    color: rgb(156, 201, 227);
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 0.5rem 0px;
+    font-size: 3rem;
+
+    
+  }
+  &__header-devide {
+    width: 50px;
+    height: 3px;
+    margin: 20px auto;
+    background: rgb(208, 187, 87);
+
+  }
+  &__description {
+    width: 100%;
+    padding: 0px 50px;
+    color:rgb(228, 230, 231);
+    line-height: 24px;
+    text-align: justify;
+    min-height: 230px;
+  }
+
+  &__stack-header {
+    text-align: center;
+    width: 100%;
+    margin: 15px auto;
+    color:rgb(228, 230, 231);
+  }
+  &__stack-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+  }
+
+  &__stack-item {
+    font-size: 1.5rem;
+    color: rgb(156, 201, 227);
+  }
+
+  &__source-link {
+    border-radius: 50px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    display: block;
+    background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+    opacity: 1;
+    transition: all .4s ease;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px auto 20px;
+    padding: 10px;
+  }
+}
