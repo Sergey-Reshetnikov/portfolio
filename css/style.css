@@ -215,7 +215,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin: 3rem 0px; }
+  margin: 3rem 0px;
+  justify-items: center; }
 
 .technologies__item {
   max-width: 320px;
@@ -231,4 +232,59 @@ body {
 .technologies__description {
   font-size: 18px;
   line-height: 30px;
+  color: rgba(255, 255, 255, 0.75); }
+
+.about__history-list {
+  margin: 0 0 80px 0; }
+
+.history {
+  background: #0f1624;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+  .history__icon {
+    align-self: start;
+    margin: 5px 0 0 10px; }
+  .history__item {
+    max-width: 220px; }
+  .history__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    margin: 0 0 16px 0;
+    background-image: linear-gradient(121.57deg, white 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+  .history__description {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 16px 0 0;
+    color: rgba(255, 255, 255, 0.75); }
+
+.acomplishments__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0 0 8px 0;
+  color: white; }
+
+.acomplishments__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 24px 0 40px; }
+
+.acomplishments__item {
+  background: #212d45;
+  border-radius: 12px;
+  min-height: 160px;
+  padding: 24px; }
+
+.acomplishments__description {
+  font-size: 18px;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.75); }

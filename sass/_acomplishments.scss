@@ -1,0 +1,33 @@
+.acomplishments {
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 8px 0;
+    color: rgb(255, 255, 255);
+
+  }
+
+  &__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 24px 0 40px;
+  }
+
+  &__item {
+    background: rgb(33, 45, 69);
+    border-radius: 12px;
+    min-height: 160px;
+    padding: 24px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+}
+
