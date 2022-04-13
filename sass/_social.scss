@@ -1,0 +1,35 @@
+.social {
+ 
+
+  &__list {
+    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  min-width: 196px;
+  }
+
+  &__item {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__link {
+    
+  }
+
+ 
+
+  &__img {
+    transition: all 0.4s ease 0s;
+  }
+
+  &__img:hover {
+    transform: scale(1.2);
+  }
+}
+
+
+
+
